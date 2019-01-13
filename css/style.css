@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+[class*="col-"] {
+    padding: 1rem;
+}
+.heading h2 {
+  color: #ffffff;
+  font-size: 4.5rem;
+  text-align: center;
+}
+.heading h3 {
+  color: #ffffff;   
+}
+.top p {
+  color: #ffffff;
+  letter-spacing: 1px;
+  text-align: left; 
+}
+.yes{
+  color: hsla(0, 0%, 71%, 0.445);
+}
+.down p{
+  color: #ffffff; 
+  letter-spacing: 1.1px;
+  color: hsla(0, 0%, 71%, 0.445)
+}
+.container {
+  margin-bottom: -1rem;
+}
+.tip {
+  width: 50%;
+  border-top: .6px solid hsla(0, 0%, 71%, 0.445);
+}
+.tip-1{
+  width: 50%;
+  border-top: .6px solid hsla(0, 0%, 71%, 0.445);  
+}
+.space {
+  border-left: 1px solid #b4b4b4; 
+  width: 1%;
+  font-size: 1.3rem;
+  color: white;
+}
+.fa-square {
+  margin-right: .3rem;
+}
+#blue {
+  color: #2776F3;
+  text-decoration-color: #2776F3;
+}
+.line {
+  text-decoration: line-through;
+}
+.back {
+  color: #ffffff;
+  text-align: center;
+  padding: 2rem; 
+}
+
+
+
+/*---Media Queries --*/
+@media (max-width: 992px) {
+.tip{
+ width: 95%;
+ margin-top: 0rem!important;
+ margin-bottom: 0rem!important;
+}
+
+.tip-1{
+ width: 95%;
+ margin-top: 0rem!important;
+ margin-bottom: 2srem;  
+}
+}
+@media (max-width: 768px) {
+.heading h2{
+  font-size: 3.4rem;
+  text-align: left;
+}
+    .tip{
+ width: 95%;
+ margin-top: 0rem!important;
+ margin-bottom: 0rem!important;
+}
+
+.tip-1{
+ width: 95%;
+ margin-top: 0rem!important;
+ margin-bottom: 2rem;  
+}
+}
+@media (max-width: 576px) {
+
+.heading h2{
+  font-size: 3.1rem;
+  text-align: left;
+}
+.heading h3{
+  text-align: right;
+  margin-top: -1rem!important;
+  margin-bottom: -5rem!important;    
+}
+.tip{
+ width: 95%;
+ margin-top: 0rem!important;
+ margin-bottom: 0rem!important;
+}
+.container{
+  margin-top: -1rem!important;
+  margin-bottom: -1rem!important; 
+  padding: -1rem!important;
+}
+.tip-1{
+ width: 95%;
+ margin-top: -3rem!important;
+ margin-bottom: 2rem;  
+}
+.padding{
+ padding: -4rem!important;
+}
+.below{
+  margin-bottom: -3rem!important;
+  padding: -3rem!important;
+}
+.down p{
+  text-align: right;
+  margin-bottom: -4rem!important;
+  padding: -4rem!important;
+  
+}
+.space{
+  margin-bottom: -4rem!important;
+  padding: -4rem!important;
+}
+.back{
+  margin-bottom: -4rem!important;
+  float: right;
+  text-align: right;
+  padding: -3rem!important;
+}
+.display-4{
+  margin-top: 0rem!important;
+  margin-bottom: -2rem; 
+  padding: -4rem!important;    
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { ... }
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) { ... }
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) { ... }
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) { ... }
+
+// Extra large devices (large desktops)
+// No media query since the extra-large breakpoint has no upper bound on its width
